@@ -40,7 +40,7 @@ const renderTasks = () => {
 
         const deleteBtn = document.createElement("button");
         deleteBtn.classList.add("btn", "btn-danger", "float-right");
-        deleteBtn.innerHTML = "Delete";
+        deleteBtn.innerHTML = "Hapus";
         deleteBtn.onclick = () => {
             deleteTask(index);
         };
@@ -51,11 +51,11 @@ const renderTasks = () => {
         editBtn.innerHTML = "Edit";
         editBtn.onclick = () => {
             taskInput.value = task;
-            addTaskBtn.innerHTML = "Edit Task";
+            addTaskBtn.innerHTML = "Edit Tugas";
             addTaskBtn.onclick = () => {
                 editTask(index, taskInput.value);
                 taskInput.value = "";
-                addTaskBtn.innerHTML = "Add Task";
+                addTaskBtn.innerHTML = "Tambah";
                 addTaskBtn.onclick = () => {
                     addTask(taskInput.value);
                     taskInput.value = "";
