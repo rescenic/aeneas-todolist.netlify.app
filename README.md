@@ -6,6 +6,8 @@ Support localStorage<br>
 Add, Edit, Delete Task Button<br>
 Live Preview Search Bar<br>
 Time Now & 2024 Counter<br>
+Regex Submit Validation min. 3 char Per Task<br>
+Waktu Berlalu Sejak 31 Mei 2022 21:00
 
 #### Credits:
 ALLAH سُبْحَانَهُ وَ تَعَالَى<br>
