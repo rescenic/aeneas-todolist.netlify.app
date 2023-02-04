@@ -15,7 +15,7 @@ const addTask = (task) => {
         tasks.push(task);
         renderTasks();
     } else {
-        alert("Task harus memiliki minimal 3 karakter per kata.");
+        alert("Tugas harus memiliki minimal 3 karakter per kata.");
     }
 };
 
