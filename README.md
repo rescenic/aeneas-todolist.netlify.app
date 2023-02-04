@@ -12,7 +12,7 @@ ALLAH سُبْحَانَهُ وَ تَعَالَى<br>
 Pak Mahmud Yunus<br>
 Pak Sayyid<br>
 
-### Teruntuk:
+#### Teruntuk:
 Anakku, Mikail Naufal Aeneas Hakim, <br>
 wafat 31 Mei 2022 jam 21.00 di usia 4,5 tahun, <br>
 setelah berjuang melawan kanker otak<br>
