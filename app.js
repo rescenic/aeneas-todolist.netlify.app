@@ -9,8 +9,14 @@ let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
 //Tambah sebuah tugas ke list tugas
 const addTask = (task) => {
-    tasks.push(task);
-    renderTasks();
+    // Regex pattern that checks if each word in the input has at least three characters
+    const pattern = /\b\w{3,}\b/g;
+    if (pattern.test(task)) {
+        tasks.push(task);
+        renderTasks();
+    } else {
+        alert("Task harus memiliki minimal 3 karakter per kata.");
+    }
 };
 
 //Delete sebuah tugas di list tugas
